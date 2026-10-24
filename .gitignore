@@ -1,0 +1,40 @@
+
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Node.js bağımlılıkları
+node_modules/
+
+# Derleme dosyaları
+dist/
+build/
+coverage/
+
+# Log dosyaları
+*.log
+logs/
+
+# Veritabanı yedekleri
+*.sql
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
+
+# Özel anahtarlar
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editör dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sabit şifre içeren hesap oluşturma dosyaları
+backend/create-admin.js
+backend/create-barber.js
